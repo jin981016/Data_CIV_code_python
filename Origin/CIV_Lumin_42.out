@@ -1377,7 +1377,7 @@ Ar 5                7.89971m   39.305    0.0515      N  2                121.767
    <a>:2.83E-12  erdeFe2.2E+26  Tcompt1.23E+14  Tthr2.29E+15  <Tden>: 3.34E+03  <dens>:3.85E-26  <MolWgt>1.13E+00
      Mean Jeans  l(cm)2.87E+22  M(sun)7.63E+07  smallest:     len(cm):2.13E+21  M(sun):7.44E+04  a_ox tran: -1.56
  Rion:3.927E+22  Dist:0.00E+00  Diam:0.000E+00
- Hatom level 70  HatomType: add  HInducImp  F  He tot level: 63  He2 level:   70  ExecTime    83.5
+ Hatom level 70  HatomType: add  HInducImp  F  He tot level: 63  He2 level:   70  ExecTime    76.0
  ConvrgError(%)  <eden>  0.057  MaxEden  0.980  <H-C>   0.07  Max(H-C)    0.44  <Press>   0.000  MaxPrs er  0.000
   Continuity(%)  chng Te   3.6  elec den   7.3  n(H2)    0.0  n(CO)        0.0
 
@@ -2626,7 +2626,7 @@ He 1                3498.61A   37.968    0.0024      Ca 2                7323.89
    <a>:2.82E-12  erdeFe2.2E+26  Tcompt1.23E+14  Tthr2.28E+15  <Tden>: 3.35E+03  <dens>:3.85E-26  <MolWgt>1.13E+00
      Mean Jeans  l(cm)2.87E+22  M(sun)7.65E+07  smallest:     len(cm):2.13E+21  M(sun):7.43E+04  a_ox tran: -1.56
  Rion:3.929E+22  Dist:0.00E+00  Diam:0.000E+00
- Hatom level 70  HatomType: add  HInducImp  F  He tot level: 63  He2 level:   70  ExecTime   164.4
+ Hatom level 70  HatomType: add  HInducImp  F  He tot level: 63  He2 level:   70  ExecTime   151.7
  ConvrgError(%)  <eden>  0.058  MaxEden  0.966  <H-C>   0.07  Max(H-C)    0.44  <Press>   0.000  MaxPrs er  0.000
   Continuity(%)  chng Te   3.6  elec den   7.3  n(H2)    0.0  n(CO)        0.0
 
@@ -3874,7 +3874,7 @@ He 1                3498.61A   37.968    0.0024      Ca 2                7323.89
    <a>:2.82E-12  erdeFe2.2E+26  Tcompt1.23E+14  Tthr2.26E+15  <Tden>: 3.35E+03  <dens>:3.85E-26  <MolWgt>1.13E+00
      Mean Jeans  l(cm)2.87E+22  M(sun)7.65E+07  smallest:     len(cm):2.13E+21  M(sun):7.43E+04  a_ox tran: -1.56
  Rion:3.928E+22  Dist:0.00E+00  Diam:0.000E+00
- Hatom level 70  HatomType: add  HInducImp  F  He tot level: 63  He2 level:   70  ExecTime   243.4
+ Hatom level 70  HatomType: add  HInducImp  F  He tot level: 63  He2 level:   70  ExecTime   226.6
  ConvrgError(%)  <eden>  0.060  MaxEden  0.970  <H-C>   0.07  Max(H-C)    0.43  <Press>   0.000  MaxPrs er  0.000
   Continuity(%)  chng Te   3.6  elec den   7.3  n(H2)    0.0  n(CO)        0.0
 
@@ -4438,5 +4438,5 @@ std
          1 mean step length searches/chemistry step
 ----------------------------------------------------
 
- Cloudy ends: 440 zones, 3 iterations, 1 caution. (single thread) ExecTime(s) 243.38
+ Cloudy ends: 440 zones, 3 iterations, 1 caution. (single thread) ExecTime(s) 226.60
  [Stop in cdMain at maincl.cpp:496, Cloudy exited OK]
