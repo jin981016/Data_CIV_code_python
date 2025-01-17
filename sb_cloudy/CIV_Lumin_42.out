@@ -1,0 +1,44 @@
+                                                          Cloudy 17.03
+                                                         www.nublado.org
+
+                       **************************************17Jun01**************************************
+                       *                                                                                 *
+                       * #                                                                                         *
+                       * title "std"                                                                     *
+                       * # INCIDENT RADIATION FIELD                                                      *
+                       * table SED "QSO.sed"                                                             *
+                       * nuL(nu) = 42 at 4.00 Ryd                                                        *
+                       * # CHEMICAL COMPOSITION                                                          *
+                       * # GEOMETRY                                                                      *
+                       * radius 21.48935 23.48935                                                        *
+                       * init "dlaw_HI_exp.ini"                                                          *
+                       * dlaw table                                                                      *
+                       * #no line transfer                                                               *
+                       * diffuse OTS                                                                     *
+                       * sphere                                                                          *
+                       * set save prefix "CIV_Lumin_42"                                                  *
+                       * stop column denstiy 24                                                          *
+                       * stop temperature off                                                            *
+                       * iterate to convergence                                                          *
+                       * save last radius ".rad"                                                         *
+                       * save last continuum ".cont"                                                     *
+                       * save last physical conditions ".phy"                                            *
+                       * save last overview ".ovr"                                                       *
+                       * save last element hydrogen ".ele_H"                                             *
+                       * save last element helium   ".ele_He"                                            *
+                       * save last element carbon   ".ele_C"                                             *
+                       * save last element nitrogen ".ele_N"                                             *
+                       * save last element oxygen   ".ele_O"                                             *
+                       * save last element magnesium ".ele_Mg"                                           *
+                       * save last element argon    ".ele_Ar"                                            *
+                       * save last element neon     ".ele_Ne"                                            *
+                       * save last element sulphur  ".ele_S"                                             *
+                       * save last element chlorin  ".ele_Cl"                                            *
+                       * save last element iron     ".ele_Fe"                                            *
+                       * save last element silicon  ".ele_Si"                                            *
+                       * save last lines emissivity  ".emis"                                             *
+ There is a problem on the following command line:
+ Print line surface brightness  
+ A value for wavelength should have been on this line.
+   Sorry.
+ [Stop in NoNumb at parser.cpp:353, something went wrong]
